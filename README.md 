@@ -1,0 +1,69 @@
+# 🌐 Tecnologie Web — Esercitazione C  
+**Studente:** Nicolò Giuliani  
+**Matricola:** [inserisci la tua]  
+**Anno accademico:** 2025/2026  
+
+---
+
+## 📁 Struttura del progetto
+
+
+
+---
+
+## 🎨 Scelte di design
+
+- **Approccio mobile-first**: la struttura parte da layout verticali, ottimizzati per smartphone, con successivi breakpoint per tablet e desktop.  
+- **Color palette coerente**: definita tramite variabili CSS (`--brand`, `--bg`, `--text`) in `variables.css` per garantire consistenza e facile manutenzione.  
+- **Font**: `Montserrat` per la leggibilità generale e aspetto moderno.  
+- **Animazioni**: transizioni leggere su link e fade-in sulle card per migliorare la percezione visiva senza compromettere l’accessibilità.  
+- **Layout ibrido**: uso combinato di **Bootstrap** (griglie responsive) e **Tailwind CSS** (rapid prototyping e utility classes).  
+- **Timeline degli esercizi**: impaginazione alternata sinistra/destra, con colori di sfondo dinamici per livello di difficoltà (verde → rosso).  
+- **A11y**: tag semantici, testi alternativi, focus visibile, contrasto verificato WCAG-AA.  
+- **Footer coerente** su tutte le pagine, con nome autore e anno accademico.
+
+---
+
+## 🧰 Librerie e strumenti utilizzati
+
+- **Bootstrap 5.3.8** — griglie e layout responsive  
+- **Tailwind CSS via CDN** — utility classes e velocità di prototipazione  
+- **Font Montserrat (Google Fonts)**  
+- Nessun JavaScript utilizzato (come da consegna)  
+- HTML5 + CSS3 puri
+
+---
+
+## 🖼️ Crediti immagini e licenze
+
+- Icone e simboli emoji provenienti da Unicode standard ✅  
+- Tutte le immagini o grafiche minori (se presenti) sono di mia creazione o da fonti royalty-free (Unsplash / unDraw).  
+- Licenza d’uso: **Creative Commons CC BY-NC-SA 4.0** (uso educativo e non commerciale).  
+
+---
+
+## ✅ Checklist di conformità
+
+| Requisito | Soddisfatto | Dettagli |
+|------------|--------------|-----------|
+| Nessun JavaScript | ✅ | Tutte le interazioni sono puramente CSS |
+| Layout con Flex/Bootstrap/Tailwind | ✅ | Bootstrap + Tailwind usati |
+| Variabili CSS + `calc()` | ✅ | Variabili in `variables.css`, usate in `style.css` |
+| Almeno 2 animazioni | ✅ | `fadeInUp` + hover link scaling |
+| 3 breakpoint mobile-first | ✅ | 768px / 1024px / desktop |
+| A11y: semantica, alt, contrasto | ✅ | Test con Lighthouse + validatore W3C |
+| Sidebar o breadcrumb | ✅ | Presente navigazione coerente e sticky header |
+| Glossario (facoltativo) | ✅ | Implementato in `glossario.html` |
+| Pagina 404 personalizzata | ✅ | Implementata in `404.html` |
+| Footer con crediti | ✅ | Presente su tutte le pagine |
+
+---
+
+## 📌 Note finali
+
+Il progetto rispetta pienamente la richiesta di **assenza di JavaScript**, utilizza **CSS moderni e variabili**, garantisce **accessibilità** e **consistenza visiva**, e presenta un design pulito e facilmente riutilizzabile come template per le future edizioni del corso.
+
+---
+
+✍️ *Realizzato con cura da*  
+**Nicolò Giuliani — Tecnologie Web 2025/2026**
